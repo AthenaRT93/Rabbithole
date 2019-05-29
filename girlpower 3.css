@@ -1,0 +1,353 @@
+img {
+display: flex;
+padding: 20px;
+margin: 0 auto;
+border-radius: 130px;
+
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+	align-items: center
+		
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: yellow;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.con-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; 
+  text-align: center; 
+}
+
+.navbar a:hover {
+  background-color: #F4CA1F ;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+body{
+  font-family: Arial, Helvetica, sans-sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color: white;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.button_1{
+  height: 27px;
+  width: 25%;
+  background: #e8491d;
+  border:0;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 4px;
+  color: #ff4px
+}
+
+
+
+header{
+color: #ffffff;
+padding-top: 10px;
+min-height: 70px;
+border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header .highlight, header .current a{
+  colour: #e8491d;
+  font-weight: bold;
+}
+
+
+/* Main Piece */
+
+#showcase {
+  min-height: 400px;
+  background-image: url("../grads.jpg"); no-repeat 0 -500px;
+    background-size: 1500px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase2 {
+  min-height: 400px;
+  background-image: url("../cvs.jpg"); no-repeat 0 -500px;
+    background-size: 1500px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase3 {
+  min-height: 400px;
+  background-image: url("../happy.jpg"); no-repeat 0 -500px;
+    background-size: 1300px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+#showcase2 h1{
+  margin-top:100px;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+  color: #ffffff;
+}
+#showcase2 p{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#sub_news{
+  padding:5px;
+  color: #ffffff;
+  background: #35424a
+}
+
+#sub_news .button_1{
+  float: right;
+  margin-bottom: 1px;
+}
+
+#sub_news h4 {
+  margin-top: 12px;
+  font-size: 20px;
+  float: left;
+}
+
+#sub_news form{
+  float: right;
+  margin-top: 10px;
+}
+
+#sub_news input[type="email"]{
+  margin-top: 2px;
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/*squares Section */
+#squares{
+  margin-top: 20px;
+
+}
+
+#squares .square{
+ float: left;
+ text-align: center;
+ width: 30%;
+ padding: 10px;
+}
+
+#squares .square img{
+  width: 250px;
+}
+
+
+/*split register */
+
+aside#side_register{
+  float: right;
+  width:35%;
+  margin-top: 10px;
+  padding-right: 35px;
+  font-size: 2px;
+
+}
+
+/*sign in split */
+
+#main {
+  padding-left: 35px;
+  float: left;
+  width:40%;
+}
+
+#side_register .registration{
+  padding-right: 70px;
+  float: right;
+  font-size: 15px;
+  width:40%;
+  padding-bottom: 20px;
+
+}
+
+
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #777;
+  text-align: center;
+}
+
+#contacting h2{
+font-size: 15px;
+text-align: center;
+}
+
+#opp_form {
+  padding-left: 430px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
+
+p:last-child{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-sans-serif;
+  font-size: 14px;
+  color: red;
+}
+
+.registration input[type=name], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing:content-box;
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing:content-box;
+}
+	
+	.confirmed {background: #FFFFFF}
+	    .topnav {
+  background-color: #9f7f28;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #dabb68;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
